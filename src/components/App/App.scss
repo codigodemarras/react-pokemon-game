@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .pokemon {
+    width: 512px;
+    height: 512px;
+    image-rendering: pixelated;
+
+    &.pokemonFiltered {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .input {
+      border: none;
+      height: 38px;
+      width: 300px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      padding: 1px 15px;
+      font-size: 1.2em;
+      
+      &:focus,
+      &:active {
+        border: none;
+        outline: none;
+      }
+    }
+
+    .button {
+      height: 40px;
+      border: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      background-color: #A13333;
+    }
+  }
+
+  .modalContainer {
+    // visibility: hidden;
+    width: 100vw;
+    height: 100vmax;
+    position: absolute;
+    background-color: rgba(#000, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal {
+      background-color: #630A10;
+      position: absolute;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 4px 4px 10px #000;
+      border: 2px solid #FFF;
+      width: 320px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      // visibility: hidden;
+      top: 600px;
+      
+      p {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 10px;
+        font-weight: 700;
+      }
+
+      .button {
+        width: fit-content;
+      }
+    }
+
+    &.showModal { 
+      // visibility: visible;
+    }
+  }
+}
