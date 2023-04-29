@@ -2,43 +2,14 @@
 
 ---
 
-### Adivina el Pokemon
-### Pokemon Guesser
-
----
-
-### Iniciar Proyecto
-
-* Clonar el proyecto
-* Instalar dependencias
-  ```
-  pnpm install
-  ```
-* Levantar proyecto
-  ```
-  pnpm run dev
-  ```
-* Jugar
-
-### Descripción
-
-Es un pequeño juego en el cual aparece una figura de un pokemon en color blanco y la idea es que tienes que adivinar el nombre del pokemon, si lo adivinas aparece el pokemon y luego aparece otro, así sucesivamente sin fin.
-
-Este proyecto es el cuarto proyecto de una serie de proyectos con React.
-Fue desarrollado en vivo en el [stream](https://www.twitch.tv/codigodemarras).
-
-La idea des estos proyectos es ir realizando proyectos que vayan incrementando su dificultad, desde un tic-tac-toe, pasando por un memory game, un sudoku y agregando más complejidad proyecto a proyecto...
-
----
-
 ### Init Project
 
-* Clone the projecto
+* Clone project
 * Install dependencies
   ```
   pnpm install
   ```
-* Start the project
+* Start project
   ```
   pnpm run dev
   ```
@@ -46,12 +17,26 @@ La idea des estos proyectos es ir realizando proyectos que vayan incrementando s
 
 ### Description
 
-It is a small game in which a figure of a pokemon appears in white color and the idea is that you have to guess the name of the pokemon, if you guess it, the pokemon appears and then another one appears, and so on without end.
+Built with React and TypeScript, this fun and addictive game presents you with a white silhouette of a Pokemon to guess. Try to name the Pokemon correctly and watch as it magically appears on the screen in full color. Keep guessing to reveal more Pokemon.
 
-This project is the second project from a serie of projecs with React.
-It was developed live in the [stream](https://www.twitch.tv/codigodemarras).
+---
 
-The idea of these projects is to make projects of increasing difficulty, from a tic-tac-toe, through a memory game, a sudoku and adding more complexity one project at a time...
+### Iniciar Proyecto
+
+* Clonar proyecto
+* Instalar dependencias
+  ```
+  pnpm install
+  ```
+* Iniciar proyecto
+  ```
+  pnpm run dev
+  ```
+* Jugar
+
+### Descripción
+
+Construido con React y TypeScript, este divertido y adictivo juego te presenta una silueta blanca de un Pokemon para adivinar. Trate de nombrar el Pokemon correctamente y ver como por arte de magia aparece en la pantalla a todo color. Sigue adivinando para revelar más Pokemon.
 
 ---
 
@@ -83,19 +68,16 @@ v18.13.0.
 
 ---
 
-### Redes / Networks
+### Networks / Redes
 
 <div id="badges">
-  <a href="http://twitch.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/twitch-6441a5?style=for-the-badge&logo=twitch&logoColor=FFFFFF" alt="Website Badge"/>
+  <a href="https://walterradduso.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/website-8a0606?style=for-the-badge&logo=About.me&logoColor=FFFFFF" alt="Website Badge"/>
   </a>
-  <a href="http://twitter.codigodemarras.com/" target="_blanck">
+  <a href="https://linkedin.walterradduso.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://twitter.com/walterradduso" target="_blank">
     <img src="https://img.shields.io/badge/twitter-00acee?style=for-the-badge&logo=twitter&logoColor=FFFFFF" alt="Website Badge"/>
-  </a>
-  <a href="http://youtube.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/youtube-c4302b?style=for-the-badge&logo=youtube&logoColor=FFFFFF" alt="Website Badge"/>
-  </a>
-  <a href="http://discord.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/discord-36393e?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="Website Badge"/>
   </a>
 </div>
