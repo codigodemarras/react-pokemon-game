@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { clsx } from 'clsx';
 
+import { Footer } from '../Footer';
 import { POKEMON_IMAGE, POKE_URL } from '../../constants';
+
 import './App.scss';
 
 interface PokemonData {
@@ -61,7 +63,7 @@ function App() {
         <img alt="Pokemon" className={pokemonStyles} src={POKEMON_IMAGE(pokemonSelected)} />
       )}
 
-      <h1>Adivina el Pokemon</h1>
+      <h1>Guess the Pokemon</h1>
 
       <div className="form">
         <input
@@ -73,9 +75,11 @@ function App() {
         />
 
         <button className="button" disabled={pokemonWin} onClick={guessThePokemon}>
-          Adivinar
+          Guess
         </button>
       </div>
+
+      <Footer />
     </div>
   );
 }

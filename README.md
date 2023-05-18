@@ -50,7 +50,7 @@ Construido con React y TypeScript, este divertido y adictivo juego te presenta u
 
 #### Node Version
 ```
-v18.13.0.
+v18.16.0.
 ```
 
 ---
