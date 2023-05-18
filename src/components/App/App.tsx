@@ -59,9 +59,9 @@ function App() {
 
   return (
     <div className="App">
-      {pokemonSelected && (
+      {pokemonSelected ? (
         <img alt="Pokemon" className={pokemonStyles} src={POKEMON_IMAGE(pokemonSelected)} />
-      )}
+      ) : null}
 
       <h1>Guess the Pokemon</h1>
 
